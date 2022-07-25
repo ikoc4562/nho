@@ -1,0 +1,18 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteRule ^cause-detail-(.*)$ cause-single.php?&id=$1 [L,NC]
+RewriteRule ^event-detail-(.*)$ event-single.php?&id=$1 [L,NC]
+RewriteRule ^about.* about.php [NC]
+RewriteRule ^home.* index.php [NC]
+RewriteRule ^contact.* contact.php [NC]
+RewriteRule ^portfolio.* portfolio.php [NC]
+RewriteRule ^videos.* video.php [NC]
+RewriteRule ^events.* events.php [NC]
+RewriteRule ^causes.* causes.php [NC]
+RewriteRule ^services.* services.php [NC]
+
+
+
+
+
